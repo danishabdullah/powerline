@@ -107,7 +107,7 @@ OS X
 
        $ brew uninstall fontforge
        $ brew update
-       $ brew install fontforge
+       $ brew install fontforge --with-python
 
    **Note:** You may have to use ``--use-clang`` instead of ``--use-gcc`` 
    when compiling FontForge.
